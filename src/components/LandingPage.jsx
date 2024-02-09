@@ -10,9 +10,12 @@ const LandingPage = () => {
     <div className="w-full h-screen bg-zinc-900 pt-1">
       <div className="TextStructure mt-52 px-20">
         {titles.map((title, index) => (
-          <div key={index} className="Masker">
-            <div className="w-fit flex items-center">
-              <h1 className="font-['Test_Founders_Grotesk_X-Condensed'] uppercase text-[138px] leading-[104px]  font-bold tracking-tight">
+          <div key={index} className="Masker ">
+            <div className="w-fit flex items-center overflow-hidden">
+              {index === 1 && (
+                <div className="mr-[0.5vw] w-[9vw] bg-red-400 rounded-md h-[5vw] relative -top-[0.4] "></div>
+              )}
+              <h1 className="uppercase text-[7vw] leading-[6vw] tracking-tighter font-['Founders_Grotesk_X-Condensed'] font-bold">
                 {title}
               </h1>
             </div>
@@ -20,7 +23,7 @@ const LandingPage = () => {
         ))}
       </div>
 
-      <div className="border-t-[1px] border-zinc-800 mt-32 flex justify-between items-center tracking-tight leading-none py-5 px-20">
+      <div className="border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center tracking-tight leading-none py-5 px-20">
         {below_border.map((phrase, index) => (
           <p key={index} className="text-md font-light ">
             {phrase}

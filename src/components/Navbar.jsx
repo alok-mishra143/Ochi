@@ -2,7 +2,7 @@ const Navbar = () => {
   const links = ["Service", "Our Works", "About us", "Insights", "Contact us"];
 
   return (
-    <div className="fixed z-[999] px-20 w-full py-8 font-[ 'Neue_Montreal_Regular'] flex justify-between items-center">
+    <div className="fixed z-[999] px-20 w-full py-8 font-[ 'Neue_Montreal_Regular'] flex justify-between items-center backdrop-blur-sm">
       <div className="logo">
         <img src="./ochi.svg" alt="ochi" />
       </div>
