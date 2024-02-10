@@ -13,7 +13,7 @@ const LandingPage = () => {
           <div key={index} className="Masker ">
             <div className="w-fit flex items-center overflow-hidden">
               {index === 1 && (
-                <div className="mr-[0.5vw] w-[9vw] bg-red-400 rounded-md h-[5vw] relative -top-[0.4] "></div>
+                <div className="mr-[0.5vw] w-[9vw] bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] rounded-md h-[5vw] relative -top-[0.4] "></div>
               )}
               <h1 className="uppercase text-[7vw] leading-[6vw] tracking-tighter font-['Founders_Grotesk_X-Condensed'] font-bold">
                 {title}
