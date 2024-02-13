@@ -1,6 +1,10 @@
 function About() {
   return (
-    <div className="w-full p-20 bg-[#CDE168] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div
+      data-scroll
+      data-scroll-speed="-.1.5"
+      className="w-full p-20 bg-[#CDE168] rounded-tl-3xl rounded-tr-3xl text-black"
+    >
       <h1 className="font-['Neue_Montreal'] text-[4vw] leading-[3.5vw] tracking-tight ">
         Ochi is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great
